@@ -1,0 +1,32 @@
+Header {
+  font-family: sans-serif;
+  box-sizing: 0;
+  background-color:e9edea;
+}
+
+.main_header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  height: 75px;
+}
+.icon_logo {
+  margin-left: 20px;
+}
+.header_h1 {
+  margin-left: 10px;
+  color: 969696;
+}
+
+.logo_icon {
+  display: flex;
+  align-items: center;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: center;
+  /* background-color: maroon;
+} */
